@@ -1,0 +1,77 @@
+@font-face {
+    font-family: login;
+    src:url(/yazıtipleri/walkthemoonspaced.ttf) format(truetype);
+}
+body
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(arkaplan/background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    background-image: url(arkaplan/navbar.jpg);
+    box-sizing: border-box;
+}
+.btn-2{
+    margin-left: 10px!important;
+}
+.navbar-brand , .navbar-toggler-icon , .nav-link{
+    color: aliceblue!important;
+}
+.giriş
+{
+    perspective: 800px;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    margin:  auto;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px #332017;
+    
+}
+.text:nth-child(1)
+{
+    margin-top: 80px !important ; 
+}
+.text
+{
+    margin: 30px auto;
+    padding: 10px 100px 10px 10px;
+    border-style: unset;
+    border-radius: 10px;
+}
+.text:invalid
+{
+    outline: 3px solid #fd5246;
+}
+.text:valid
+{
+    outline: 3px solid rgb(2, 174, 2);
+}
+p{
+    margin: 5% 0px 5% calc(50% - 90px);
+    font-family:login;
+    font-size: 55px;
+    letter-spacing: 5px;
+    color:black;
+    text-shadow: 3px 3px 5px #3d2c26;
+    perspective: 100px;
+}
+.giris{
+    font-size: 18px !important;
+    letter-spacing: 2px;
+    padding: 0px 8px 0px 8px;
+}
+@media screen and (max-width : 600px) {
+    .text{
+        padding: 10px 30px 10px 10px;
+    }
+}
+
+

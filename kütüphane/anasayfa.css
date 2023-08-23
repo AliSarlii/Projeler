@@ -1,0 +1,123 @@
+
+@font-face {
+    font-family: login;
+    src:url(/yazıtipleri/walkthemoonspaced.ttf) format(truetype);
+}
+html , body{
+    margin: 0;
+    padding: 0;
+}
+.anasayfa{
+    background-image: url(/arkaplan/background1.jpg);
+    width: 100%;
+    height: 669px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin: auto;
+    box-sizing: border-box;
+}
+.navbar{
+    background-image: url(arkaplan/navbar.jpg);
+    box-sizing: border-box;
+}
+.btn-2{
+    margin-left: 10px!important;
+}
+.navbar-brand , .navbar-toggler-icon , .nav-link{
+    color: aliceblue!important;
+}
+.anayazi{
+    text-align: center;
+    font-family:"login";
+    font-size: 90px;
+    font-weight: 700;
+    color: aliceblue;
+    padding-top: 180px;
+    word-spacing: 500px;
+    letter-spacing: 3px;
+}
+.hakkımızda{
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px ;
+    width: 100%;
+    height: max-content;
+    gap: 20px;
+}
+.hakkımızda1{
+    background-color: aliceblue;
+    width:48.5% ;
+    height: 360px;
+}
+.duyurular{
+    width: 48.5%;
+    height: 360px;
+    background-color: aliceblue;
+}
+.hakkımızda1 , .duyurular{
+    border-radius: 15px;
+    background-image: url(arkaplan/div.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 10px;
+}
+h5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10px;
+}
+.aciklama{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-indent: 20px;
+}
+.iletişim{
+    background-image: url(arkaplan/navbar.jpg);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+.iletelement{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: aliceblue;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+}
+@media screen and (max-width : 750px) {
+    .hakkımızda1 , .duyurular{
+        width: 400px;
+    }
+    .iletelement{
+        width: 100%;
+        
+    }
+    .iletişim{
+        height: max-content;
+        padding-top: 0px;
+    }
+    
+}
+@media screen and (max-width : 650px) {
+    .anayazi{
+        font-size: 55px;
+    }
+}
